@@ -10,7 +10,7 @@ public class People {
     
     public People(int id,String name,byte age){
         this.id=id;
-        this.name=nam;
+        this.name=name;
         this.age=age;
     }
 
