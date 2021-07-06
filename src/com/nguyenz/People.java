@@ -7,6 +7,12 @@ public class People {
 
     public People() {
     }
+    
+    public People(int id,String name,byte age){
+        this.id=id;
+        this.name=nam;
+        this.age=age;
+    }
 
     public int getId() {
         return id;
