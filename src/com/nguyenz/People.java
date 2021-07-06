@@ -1,17 +1,17 @@
 package com.nguyenz;
 
-public class People {
+public abstract class People {
     private int id;
     private String name;
     private byte age;
 
     public People() {
     }
-    
-    public People(int id,String name,byte age){
-        this.id=id;
-        this.name=name;
-        this.age=age;
+
+    public People(int id, String name, byte age) {
+        this.id = id;
+        this.name = name;
+        this.age = age;
     }
 
     public int getId() {
@@ -38,12 +38,5 @@ public class People {
         this.age = age;
     }
 
-    @Override
-    public String toString() {
-        return "People{" +
-                "id=" + id +
-                ", name='" + name + '\'' +
-                ", age=" + age +
-                '}';
-    }
+    public abstract void work();
 }
