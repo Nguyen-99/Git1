@@ -8,5 +8,8 @@ public class Main {
         System.out.println(p.getName());
         System.out.println(p);
         p.work();
+        People p1=new Customer(1,"Nguyen", (byte) 22,"Nam Dinh");
+        System.out.println(p1.getName());
+        p1.work();
     }
 }
